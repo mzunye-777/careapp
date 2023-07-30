@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewTitlllle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor Privacy Policy"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As a medical practice, we value the privacy and confidentiality of our patients personal information. This privacy policy outlines how we handle patient data and sets forth our commitment to ensuring the security and protection of your sensitive information."
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Data Handling and Confidentiality:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We handle all patient data with utmost care and maintain strict confidentiality.
+Patient records, medical history, and any sensitive information are securely stored and accessed only by authorized medical personnel.
+        We do not share patient data with any unauthorized third parties without explicit consent, except when required by law or to provide necessary medical care." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Data Security Measures:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We employ advanced security measures to protect patient data from unauthorized access, loss, or misuse.
+        Our systems are regularly updated and maintained to ensure maximum security.." />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Non-Disclosure and Criminalization:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any unauthorized sharing or leakage of patient information will be treated as a criminal offense, and appropriate legal actions will be taken.
+        We are committed to safeguarding patient privacy and preventing any form of data breach." />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Responsibility for Patient Care:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As a doctor, you are responsible for providing the best possible care to your patients.
+        Failure to provide adequate medical treatment may lead to penalties and legal consequences." />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Documentation and Records:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As a doctor, you are required to maintain accurate and comprehensive records of patient care.
+        In the event of any patients death, you must provide necessary documents and evidence to establish that the death was not a result of negligence." />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Registration Requirements:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To be registered as a doctor with our practice, you must provide valid documents and certificates from recognized medical institutions.
+        Your professional bio on our platform will include details of your experience, certifications, and the number of patients you have treated." />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Patient Testimonials and Pictures:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You may post patient testimonials, pictures, and recovery stories only with explicit consent from the patients involved.
+        Patient identities will be kept anonymous to protect their privacy." />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Data Security Measures:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Document Submission:
+        All the necessary documents, certificates, and information required for registration should be sent to Your Medical Practice Email." />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Updating the Privacy Policy:"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This privacy policy may be updated from time to time to reflect changes in our data handling practices. Any updates will be communicated to our registered doctors, for their login details
+
+        By joining our medical practice, you agree to adhere to this privacy policy and to protect the privacy of our patients. We appreciate your commitment to providing high-quality medical care while ensuring patient data privacy and confidentiality. If you have any questions or concerns about this policy, please reach out to us at Your Contact Information." />
+
+
+            <Button
+                android:id="@+id/buttondocLogin"
+                android:layout_width="200dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/btn_bg"
+                android:text="CONTINUE TO LOGIN"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+            <!-- Add more sections based on your specific privacy policy content -->
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

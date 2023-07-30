@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewPatient"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/patient_image" />
+
+    <TextView
+        android:id="@+id/textViewPatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPatientDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Description"
+        android:textSize="14sp" />
+
+    <!-- Add more TextViews or other UI elements for patient details here -->
+
+    <TextView
+        android:id="@+id/medicationStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medication Status"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/curedStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cured Status"
+        android:textSize="14sp" />
+
+</LinearLayout>
